@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import Notification from 'components/Notification';
 
 export const App = () => {
-  const [good, setGood] = useState(2000);
+  const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
 
